@@ -25,4 +25,6 @@ Default parameters (undef parameters are required to be manually specified):
  $requireAuthorization = false, <br>
  $users = [ { name => admin, password => "changeme1", is_admin => "true" } ], <br>
  $loggingLevel = "INFO", <br>
- $logFolder = "/var/log/etherpad-lite",<br> 
+ $logFolder = "/var/log/etherpad-lite",<br> <br>
+  
+ The first initialization must be done manually, running run.sh while logged on with "etherpad" user credentials.
